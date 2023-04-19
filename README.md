@@ -23,7 +23,7 @@
 ## usage
 
 ```
-git clone git@github.com:yiwwhl/chaos.git ~/.dotfiles
+git clone --depth 1 git@github.com:yiwwhl/chaos.git ~/.dotfiles
 
 rcup -v -x LICENSE -x README.md
 ```
