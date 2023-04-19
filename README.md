@@ -25,7 +25,7 @@
 ```
 git clone git@github.com:yiwwhl/chaos.git ~/.dotfiles
 
-rcup -v
+rcup -v -x LICENSE -x README.md
 ```
 
 
