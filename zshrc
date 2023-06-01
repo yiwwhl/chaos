@@ -36,6 +36,7 @@ alias rp="ssh -f -NR 6152:localhost:6152 yiwwhl && ssh -f -NR 6153:localhost:615
 alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &"
 alias adf="rcup -v -x LICENSE -x README.md"
 alias ddf="rcdn -v"
+alias lg="lazygit"
 alias f="fuck"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
