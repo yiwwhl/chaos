@@ -37,10 +37,6 @@ alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 
 alias adf="rcup -v -x LICENSE -x README.md"
 alias ddf="rcdn -v"
 alias lg="lazygit"
-alias f="fuck"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# The Fuck
-eval $(thefuck --alias)
