@@ -25,17 +25,37 @@
 ```
 git clone --depth 1 git@github.com:yiwwhl/chaos.git ~/.dotfiles
 
-rcup -v -x LICENSE -x README.md
+rcup -v
 ```
 
 ## preview
 
 ```md
 .
+├── gitconfig
 ├── LICENSE
 ├── p10k.zsh
-├── gitconfig
+├── rcrc
 ├── README.md
+├── tag-lazyvim
+│ └── config
+│ └── nvim
+│ ├── init.lua
+│ ├── lazy-lock.json
+│ ├── LICENSE
+│ ├── lua
+│ │ ├── config
+│ │ │ ├── autocmds.lua
+│ │ │ ├── keymaps.lua
+│ │ │ ├── lazy.lua
+│ │ │ └── options.lua
+│ │ └── plugins
+│ │ ├── editor.lua
+│ │ ├── lsp.lua
+│ │ ├── toggleterm.lua
+│ │ └── ui.lua
+│ ├── README.md
+│ └── stylua.toml
 ├── tmux.conf
 └── zshrc
 ```
